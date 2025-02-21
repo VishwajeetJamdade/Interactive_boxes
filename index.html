@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Design</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>YAY! It's BOGO</h2>
+
+    <!-- 1st box -->
+    <div class="box " onclick="selectOption(1)">
+    
+        <div class="alignBox">
+            <div>
+                <input type="radio" name="unit" id="unit1">
+                <label for="unit1">1 Unit <span class="discount">10% Off</span></label><br>
+                <span>Standard Price</span>
+        </div>
+            <div>
+                <div class="price">₹10.00 INR  <br><span class="old-price">₹24.00 INR</span></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <label>Size</label><br>
+           <span>#1</span> <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+            </select><br>
+
+            <span>#2</span>   <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+            </select>
+            </div>
+            <div class="column">
+                <label>Colour</label><br>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+    
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <!-- 2nd box -->
+    <div class="box most-popular" onclick="selectOption(2)">
+        <div class="alignBox">
+            <div>
+                <input type="radio" name="unit" id="unit2" checked>
+                 <label for="unit2">2 Unit <span class="discount">20% Off</span></label>
+            </div>
+            <div class="price">₹18.00 INR  <br><span class="old-price">₹24.00 INR</span></div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <label>Size</label><br>
+           <span>#1</span> <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+            </select><br>
+
+            <span>#2</span>   <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+            </select>
+            </div>
+            <div class="column">
+                <label>Colour</label><br>
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+    
+                <select>
+                    <option>Black</option>
+                    <option>Red</option>
+                    <option>Blue</option>
+                </select>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- 3rd box  -->
+    <div class="box" onclick="selectOption(3)">
+    <div class="alignBox">
+        <div>
+            <input type="radio" name="unit" id="unit3">
+           <label for="unit3">3 Unit <span class="discount">30% Off</span></label>
+   </div>
+         <div class="price">₹24.00 INR <br> <span class="old-price">₹24.00 INR</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <label>Size</label><br>
+       <span>#1</span> <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+        </select><br>
+
+        <span>#2</span>   <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+        </select>
+        </div>
+        <div class="column">
+            <label>Colour</label><br>
+            <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+            </select>
+
+            <select>
+                <option>Black</option>
+                <option>Red</option>
+                <option>Blue</option>
+            </select>
+        </div>
+        
+    </div>
+
+   </div>
+
+
+
+    <div class="total-Space">
+        <div class="free-delivery">Free Delivery</div>
+    <div class="total">Total: <span id="totalPrice">₹18.00 INR</span></div>
+    </div>
+
+    <button class="button">+ Add to Cart</button>
+
+    <p class="copyRight">
+        <a href="http://vishwajeetjamdade.great-site.net/" target="_blank"> @ Powered by Vishwajeet</a>
+    </p>
+    
+</div>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
+ 
